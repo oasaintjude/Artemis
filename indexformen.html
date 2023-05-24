@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Jacques+Francois&family=Junge&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styleformen.css">
+    <title>MEN || Artemis</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="images/logo.png" alt="Artemis Logo"></a>
+        <ul>
+            <li><a href="indexformen.html">MEN</a></li>
+            <li><a href="#">WOMEN</a></li>
+            <li><a href="#">JOURNAL</a></li>
+            <li><a href="#">ABOUT US</a></li>
+        </ul>
+        <button>SIGN IN</button>
+    </nav>
+    <hr>
+
+    <!-- PRODUCT INFO -->
+    <div class="product-info">
+
+        <!-- PRODUCT CATEGORY -->
+        <div class="product-category">
+            <h3>MEN - COATS</h3>
+            <!-- FIT(images) & MODELS -->
+            <div class="fits-and-models">
+                <div class="thumbnail-images">
+                    <div id="thumbnail-image-1" class="thumbnail-image"></div>
+                    <div id="thumbnail-image-2" class="thumbnail-image"></div>
+                    <div id="thumbnail-image-3" class="thumbnail-image"></div>
+                </div>
+                <div id="thumbnail-preview"></div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- PRODUCT DETAILS -->
+        <div class="product-details">
+            <h3>ADAORA X VERAVIVIAN COLLECTION</h3>
+            <h1>Basic Trench Coat</h1>
+            <h2>$150.00</h2>
+            <p>These coats are made from the best materials, sourced from Italy. 100% premium cashmere, ethically sourced and without the price tag of expensive old fashion houses.</p>
+
+            <label id="quantity" class="lbl" for="quantity">Choose Quantity</label><br>
+            <input id="number" type="number" max="10" min="1"><br>
+            
+            <label id="sizes" class="lbl" for="sizes">Choose Size</label><br>
+            <!-- SIZES -->
+            <div class="size">
+                <input style="margin-left: 0;" type="radio" id="size-xs" name="size" value="XS">
+                <label for="size-xs">XS</label>
+                
+                <input type="radio" id="size-s" name="size" value="S">
+                <label for="size-s">S</label>
+                
+                <input type="radio" id="size-m" name="size" value="M">
+                <label for="size-m">M</label>
+                
+                <input type="radio" id="size-l" name="size" value="L">
+                <label for="size-l">L</label>
+                
+                <input type="radio" id="size-xl" name="size" value="XL" placeholder=" XL">
+                <label for="size-xl">XL</label>
+            </div>
+            <p>Unsure? Check our <span>sizing guide</span></p>
+            <button>ADD TO CART</button>
+
+            
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>
