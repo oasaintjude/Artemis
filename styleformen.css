@@ -44,6 +44,11 @@ nav button {
     height: 35px;
     visibility: hidden;
 }
+/* #selected {
+    font-size: 30px;
+    font-weight: bolder;
+    transition: 0.4s;
+} */
 hr {
     border: 1px solid var(--gray);
 }
@@ -143,8 +148,8 @@ hr {
     font-weight: 500;
     font-size: 16px;
 }
-.product-details span {
-    text-decoration: underline;
+.product-details a {
+    color: black;
 }
 .product-details button {
     background-color: black;
