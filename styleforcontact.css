@@ -197,16 +197,19 @@ address {
 
 /* FOOTER PART 2 (Social Icons) */
 .artemis-socials {
-    padding: 30px 100px;
     display: flex;
+    justify-content: space-around;
+    padding: 20px 80px;
     align-items: center;
 }
-.social-icons a{
-    margin: 0 8px;
+.artemis-socials a{
+    margin: 0 3px;
+    color: black;
+    /* text-decoration: none; */
 }
 .artemis-socials p {
     font-family: 'Junge', serif;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: bold;
     padding-left: 280px;
 }
